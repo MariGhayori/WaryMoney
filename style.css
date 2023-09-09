@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: #5CDB95;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    max-width: 70px;
+    min-width: 60px;
+    background-color: #3445b4;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    color: #EDF5E1;
+}
+
+.BaseIMGs {
+    max-width: 100%;
+}
+
+.col-row1 {
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 10%;
+}
+.col-row1 img {
+    width: 50%;
+}
+.col-row1:hover {
+    padding-top: 10px;
+    background-color: #5CDB95;
+    color: #3445b4;
+}
+
+.col-row2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.col-row2 .icons {
+    margin-top: 18px;
+}
+.col-row2 .icons img {
+    width: 50%;
+}
+
+.col-row3 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    height: 10%;
+    align-items: center;
+}
+.col-row3 .icons img {
+    width: 50%;
+}
+.col-row3:hover {
+    background-color: #5CDB95;
+    color: #3445b4;
+}
+
+.sidebar a {
+    color: #EDF5E1;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+.sidebar a:hover {
+    background-color: #5CDB95;
+    color: #3445b4;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .SecRow {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .Section1 {
+        margin-left: 10%;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin-left: 30%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .Section2 {
+        margin-left: 10%;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin-left: 30%;
+    } 
+}
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+    .SecRow {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .Section1 {
+        margin-left: 10%;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin-left: 30%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .Section2 {
+        margin-left: 10%;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin-left: 30%;
+    } 
+} 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) and (min-width: 769px) {
+    .SecRow {
+        display: flex;
+    }
+
+    .Section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 99vh;
+        margin-left: 5%;
+        width: 45%;
+    }
+    
+    .Section2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 99vh;
+        width: 45%;
+    } 
+} 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+    .SecRow {
+        display: flex;
+    }
+
+    .Section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 99vh;
+        margin-left: 5%;
+        width: 45%;
+    }
+    
+    .Section2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 99vh;
+        width: 45%;
+    } 
+}
+
+@media only screen and (min-width: 1200px) {
+    .SecRow {
+        display: flex;
+    }
+
+    .Section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 99vh;
+        margin-left: 5%;
+        width: 45%;
+    }
+    
+    .Section2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 99vh;
+        width: 45%;
+    } 
+}
